@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ConstructionEquipmentsSol.index" %>
+<%@ OutputCache Duration ="60" VaryByParam="None" %>
 
 <!DOCTYPE html>
 <html lang="en">

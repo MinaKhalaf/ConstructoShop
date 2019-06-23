@@ -6,6 +6,10 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 
+using System.IO;
+using System.Net;
+using System.Diagnostics;
+
 namespace ConstructionEquipmentsSol
 {
     public partial class Login : System.Web.UI.Page
