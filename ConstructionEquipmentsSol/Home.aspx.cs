@@ -58,8 +58,13 @@ namespace ConstructionEquipmentsSol
                     + Fn_CalculateSpecializedPrice(Convert.ToDouble(TextBox5.Text));
 
                 lblCart.Text = TotalPrice.ToString();
+                double heavy1 = Convert.ToDouble(TextBox1.Text);
+                double heavy2 = Convert.ToDouble(TextBox2.Text);
+                double regular1 = Convert.ToDouble(TextBox3.Text);
+                double regular2 = Convert.ToDouble(TextBox4.Text);
+                double specialized = Convert.ToDouble(TextBox5.Text);
 
-                lblAddedPoints.Text = fn_CalculatePoints().ToString();
+                lblAddedPoints.Text = fn_CalculatePoints(heavy1,heavy2,regular1,regular2,specialized).ToString();
                 if (TotalPrice >0)
                     btnCart.Enabled = true;
             }
@@ -114,14 +119,9 @@ namespace ConstructionEquipmentsSol
             }
             else return 0;
         }
-        public int fn_CalculatePoints()
+        public int fn_CalculatePoints(double heavy1, double heavy2, double regular1, double regular2, double specialized)
         {
             int points = 0;
-            double heavy1 = Convert.ToDouble(TextBox1.Text);
-            double heavy2 = Convert.ToDouble(TextBox2.Text);
-            double regular1 = Convert.ToDouble(TextBox3.Text);
-            double regular2 = Convert.ToDouble(TextBox4.Text);
-            double specialized = Convert.ToDouble(TextBox5.Text);
             if (heavy1 > 0)
                 points = points + 2;
             if (heavy2 > 0)
