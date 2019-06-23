@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 body {
 	background: url(../img/background.jpg) no-repeat;
+	color:white;
 }
 
 .txtUsername{
@@ -8,7 +9,7 @@ padding-top:300px;
 }
 table {
   border-radius: 15px;
-  background: #fff;
+
 margin-top: 100px;
   width: 250px;
   height: 130px; 
