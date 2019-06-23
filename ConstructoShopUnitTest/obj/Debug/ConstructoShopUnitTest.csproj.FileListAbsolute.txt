@@ -1,0 +1,15 @@
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\ConstructoShopUnitTest.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\ConstructoShopUnitTest.pdb
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\ConstructionEquipmentsSol.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\ConstructionEquipmentsSol.pdb
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\ConstructionEquipmentsSol.dll.config
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\obj\Debug\ConstructoShopUnitTest.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\obj\Debug\ConstructoShopUnitTest.pdb
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructoShopUnitTest\obj\Debug\ConstructoShopUnitTest.csprojResolveAssemblyReference.cache
