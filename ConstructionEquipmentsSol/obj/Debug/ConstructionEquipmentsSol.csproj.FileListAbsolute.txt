@@ -1,3 +1,4 @@
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\obj\Debug\ConstructionEquipmentsSol.csprojResolveAssemblyReference.cache
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\roslyn\csc.exe
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\roslyn\csc.exe.config
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\roslyn\csc.rsp
@@ -27,8 +28,11 @@ D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\roslyn\VB
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\ConstructionEquipmentsSol.dll.config
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\ConstructionEquipmentsSol.dll
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\ConstructionEquipmentsSol.pdb
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\Accounts.exe
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\log4net.dll
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\Accounts.pdb
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\Accounts.exe.config
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\obj\Debug\ConstructionEquipmentsSol.csprojResolveAssemblyReference.cache
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\obj\Debug\ConstructionEquipmentsSol.dll
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\obj\Debug\ConstructionEquipmentsSol.pdb
