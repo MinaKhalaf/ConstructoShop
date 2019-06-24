@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\Log4NetWeb\Log4NetWeb\Lib\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -134,7 +137,9 @@
     <Content Include="fonts\font-awesome-4.1.0\fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\font-awesome-4.1.0\fonts\FontAwesome.otf" />
     <Content Include="img\favicons\manifest.json" />
+    <Content Include="log4net.config" />
     <None Include="Properties\PublishProfiles\ConstructoShop - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ConstructoShop1 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -143,7 +148,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cart.aspx.cs">
@@ -177,7 +184,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlConnect.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="LogBackUp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Accounts\Accounts.csproj">
+      <Project>{a64ebbec-66b4-4a9a-ae02-d95552ce51fd}</Project>
+      <Name>Accounts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

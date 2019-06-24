@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using log4net;
 
 namespace ConstructionEquipmentsSol
 {
@@ -15,30 +16,31 @@ namespace ConstructionEquipmentsSol
         private int RegularFee = 40;
         private double price;
         private double TotalPrice ;
-        
+        ILog logger = log4net.LogManager.GetLogger("ErrorLog");
+
         protected void Page_Load(object sender, EventArgs e)
         {
             lblUserDetails.Text = "Welcome " + Session["Username"];
             lblErrorMsg.Visible = false;
             btnCart.Enabled = false;
 
-            SqlConnection connection = new SqlConnection();
-            SqlConnect Con = new SqlConnect();
-            connection = Con.fn_SqlConnect();
-            try
-            {
-                string Query = "select points from [user] where username = @Username;";
-                SqlCommand Sqlcmd = new SqlCommand(Query, connection);
+            //SqlConnection connection = new SqlConnection();
+            //SqlConnect Con = new SqlConnect();
+            //connection = Con.fn_SqlConnect();
+            //try
+            //{
+            //    //string Query = "select points from [user] where username = @Username;";
+            //    //SqlCommand Sqlcmd = new SqlCommand(Query, connection);
 
-                Sqlcmd.Parameters.AddWithValue("@Username", Session["Username"]);
-                int count = Convert.ToInt32(Sqlcmd.ExecuteScalar());
-                //lblCurrentPoints.Text = count.ToString();
+            //    //Sqlcmd.Parameters.AddWithValue("@Username", Session["Username"]);
+            //    //int count = Convert.ToInt32(Sqlcmd.ExecuteScalar());
+            //    //lblCurrentPoints.Text = count.ToString();
 
-                connection.Close();
-            }catch(Exception ee)
-            {
-                throw new Exception(ee.Message);
-            }
+            //    connection.Close();
+            //}catch(Exception ee)
+            //{
+            //    throw new Exception(ee.Message);
+            //}
         }
 
         protected void btnLogout_Click(object sender, EventArgs e)
@@ -71,6 +73,7 @@ namespace ConstructionEquipmentsSol
             catch (Exception ex)
             {
                 lblErrorMsg.Visible = true;
+                logger.Info(ex.Message);
             }
         }
 
