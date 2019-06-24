@@ -1,0 +1,5 @@
+D:\Personal\vs\ConstructionEquipmentsSol\Accounts\bin\Debug\Accounts.exe.config
+D:\Personal\vs\ConstructionEquipmentsSol\Accounts\bin\Debug\Accounts.exe
+D:\Personal\vs\ConstructionEquipmentsSol\Accounts\bin\Debug\Accounts.pdb
+D:\Personal\vs\ConstructionEquipmentsSol\Accounts\obj\Debug\Accounts.exe
+D:\Personal\vs\ConstructionEquipmentsSol\Accounts\obj\Debug\Accounts.pdb
