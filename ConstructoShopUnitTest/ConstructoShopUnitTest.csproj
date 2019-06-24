@@ -56,6 +56,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Accounts\Accounts.csproj">
+      <Project>{a64ebbec-66b4-4a9a-ae02-d95552ce51fd}</Project>
+      <Name>Accounts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ConstructionEquipmentsSol\ConstructionEquipmentsSol.csproj">
       <Project>{6eb7e6a0-b8f8-41fe-b915-2132ed0c366f}</Project>
       <Name>ConstructionEquipmentsSol</Name>

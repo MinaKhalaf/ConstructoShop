@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ConstructionEquipmentsSol;
+using Accounts;
 
 namespace ConstructoShopUnitTest
 {
@@ -35,6 +36,13 @@ namespace ConstructoShopUnitTest
             var r = new Home();
             double points = r.fn_CalculatePoints(0,0,2,2,2);
             Assert.AreEqual(3, points);
+        }
+        [TestMethod]
+        public void LoginTest()
+        {
+            var r = new Account();
+            bool flag = r.Fn_ValidateUser("admin","Pass");
+            Assert.AreEqual(false, flag);
         }
     }
 }
