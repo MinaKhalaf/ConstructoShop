@@ -32,3 +32,4 @@ D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\Microsoft
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\obj\Release\ConstructionEquipmentsSol.csprojResolveAssemblyReference.cache
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\obj\Release\ConstructionEquipmentsSol.dll
 D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\obj\Release\ConstructionEquipmentsSol.pdb
+D:\Personal\vs\ConstructionEquipmentsSol\ConstructionEquipmentsSol\bin\log4net.dll
